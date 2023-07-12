@@ -2,7 +2,7 @@
 
 **Introduction:**
 
-In this Project I have created 3d Model of India’s First Organic caper product and located at “NEERAVIPUTHUPATTI” where specially grown in 40 degree Celsius in Black soil. 
+In this Project, I have created a 3d Model of India’s First Organic caper product located at “NEERAVIPUTHUPATTI” where specially grown at 40 degree Celsius in Black soil. 
 
 **Used Software** 
 
@@ -28,7 +28,7 @@ ODM, the open source command line toolkit of OpenDroneMap, relies on the presenc
 
 Create a new folder that will be your working directory  and put the video into the empty folder. Use ffmpeg to extract the  frames. You can experiment with different frame rates but generally  there will be little value in extracting at 60fps or whatever your phone  natively shoots at.
 
-**Note**: When shooting the video with your phone, ensure the entire object fits in the video frame through out the video.
+**Note**: When shooting the video with your phone, ensure the entire object fits in the frame throughout the video.
 
 **Video Details:**
 
@@ -57,10 +57,11 @@ The exported `.png` images can now be imported into WebODM. Use the steps below 
 1. Create a new project in WebODM using the Add project button. Name the project and add an optional project description.
 2. Upload the `.png`  images into WebODM
 3. Run the WebODM processing using the following settings.
-. ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab055b87-d0c5-458a-81da-625f7c5bb1db/Untitled.png)
-From the Download assets. Downlead the model 
+![1](https://github.com/naren-7117/3d/assets/128035374/ea0dc4ca-1d27-4566-b1cb-31b49064c472)
 
-In-order to use Alternative of Initializing web-ODM in Local computer Web based processing is also computed. and Speed and computation is compared
+From the Download assets. Download the model 
+
+In order to use an Alternative of Initializing web-ODM in a Local computer Web-based processing is also computed. and Speed and computation is compared
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f324e60-44de-4b0b-993a-13c399601d91/Untitled.png)
 Blender Processing
 
@@ -69,14 +70,14 @@ Next, fire up Blender, create a new General project, delete the default block an
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d19d9034-93ed-487f-ac88-88443ae63a58/Untitled.png)
 
-Remove unwanted objects around model: After putting Blender into edit mode, select everything in the scene using the keyboard shortcut, A, and change your viewpoint so that you have a clear view of the axis you would like to cut along
+Remove unwanted objects around the model: After putting Blender into edit mode, select everything in the scene using the keyboard shortcut, A, and change your viewpoint so that you have a clear view of the axis you would like to cut along
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7d6a513-3104-4be5-a688-c0dda600bb5b/Untitled.png)
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2875f85-92ba-40d2-b3e0-5638308032b1/Untitled.png)
 
-Switch back to View mode, add your texture back on, spin the model around and admire (ahem: quality check) your model. You can export the cleaned up model for back up purposes by writing the model to a Wavefront OBJ file,
+Switch back to View mode, add your texture back on, spin the model around, and admire (ahem: quality check) your model. You can export the cleaned-up model for back up purposes by writing the model to a Wavefront OBJ file,
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e93dd633-f091-437e-bdef-db3c9a6264e0/Untitled.png)
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3295146-71b5-43b4-a2e7-ddc12aed8f49/Untitled.png)
-Next we want to simplify the model as much as possible. QGIS is going to grind to a halt if you ask it to render complex models as symbols so we are going to 'decimate' the geometry such that it maintains it's form but loses as many vertices as possible
+Next, we want to simplify the model as much as possible. QGIS is going to grind to a halt if you ask it to render complex models as symbols so we are going to 'decimate' the geometry such that it maintains its form but loses as many vertices as possible
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac8e0b68-f738-4c2b-b3ff-dbadf1ac3607/Untitled.png)
 
 **Location identification in Q-GIS** 
