@@ -6,7 +6,7 @@ In this Project, I have created a 3d Model of India’s First Organic caper prod
 
 **Used Software** 
 
-ffmpeg
+FFmpeg
 
 Blender 
 
@@ -22,11 +22,11 @@ The FFmpeg Windows executable file was acquired from the FFmpeg-Builds repositor
 
 **Configuring OpenDroneMap ODM**
 
-ODM, the open source command line toolkit of OpenDroneMap, relies on the presence of Docker. To utilize this toolkit, please refer to the ODM Quickstart guide
+ODM, the open-source command line toolkit of OpenDroneMap, relies on the presence of Docker. To utilize this toolkit, please refer to the ODM Quickstart guide
 
 **Extracting video Frames** 
 
-Create a new folder that will be your working directory  and put the video into the empty folder. Use ffmpeg to extract the  frames. You can experiment with different frame rates but generally  there will be little value in extracting at 60fps or whatever your phone  natively shoots at.
+Create a new folder that will be your working directory  and put the video into the empty folder. Use ffmpeg to extract the  frames. You can experiment with different frame rates but generally,  there will be little value in extracting at 60fps or whatever your phone  natively shoots at.
 
 **Note**: When shooting the video with your phone, ensure the entire object fits in the frame throughout the video.
 
