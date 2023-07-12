@@ -68,7 +68,7 @@ In order to use an Alternative of Initializing web-ODM in a Local computer Web-b
 
 Blender Processing
 
-If you used the ODM processing steps outlined in after processing, download the assets for the textured model :
+If you used the ODM processing steps outlined after processing, download the assets for the textured model :
 Next, fire up Blender, create a new General project, delete the default block, and import the textured model Wavefront OBJ file:
 
 ![3](https://github.com/naren-7117/3d/assets/128035374/1a8b7be4-8db8-4d54-9779-03da255e6532)
