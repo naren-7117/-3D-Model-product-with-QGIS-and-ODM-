@@ -54,11 +54,11 @@ The %07d dictates that the ordinal number of each output image will be formatted
 
 The exported `.png` images can now be imported into WebODM. Use the steps below to create a project and then load the images into WebODM:
 
-1. Create a new project in WebODM using the Add project button. Name the project and add an optional project description.
+1. Create a new project in WebODM using the Add Project button. Name the project and add an optional project description.
 2. Upload the `.png`  images into WebODM
 3. Run the WebODM processing using the following settings.
-   
-![1](https://github.com/naren-7117/3d/assets/128035374/ea0dc4ca-1d27-4566-b1cb-31b49064c472)
+
+![1](https://github.com/naren-7117/-3D-Model-product-with-QGIS-and-ODM-/assets/128035374/8ed17ca8-56ae-4463-aa77-e0faafb271cf)
 
 From the Download assets. Download the model 
 
