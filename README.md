@@ -57,40 +57,59 @@ The exported `.png` images can now be imported into WebODM. Use the steps below 
 1. Create a new project in WebODM using the Add project button. Name the project and add an optional project description.
 2. Upload the `.png`  images into WebODM
 3. Run the WebODM processing using the following settings.
+   
 ![1](https://github.com/naren-7117/3d/assets/128035374/ea0dc4ca-1d27-4566-b1cb-31b49064c472)
 
 From the Download assets. Download the model 
 
-In order to use an Alternative of Initializing web-ODM in a Local computer Web-based processing is also computed. and Speed and computation is compared
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f324e60-44de-4b0b-993a-13c399601d91/Untitled.png)
+In order to use an Alternative of Initializing web-ODM in a Local computer Web-based processing is also computed. and Speed and computation are compared
+
+![2](https://github.com/naren-7117/3d/assets/128035374/01bde6f7-43dd-4eb5-b34e-94eca6c66668)
+
 Blender Processing
 
 If you used the ODM processing steps outlined in after processing, download the assets for the textured model :
-Next, fire up Blender, create a new General project, delete the default block and import the textured model Wavefront OBJ file:
+Next, fire up Blender, create a new General project, delete the default block, and import the textured model Wavefront OBJ file:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d19d9034-93ed-487f-ac88-88443ae63a58/Untitled.png)
+![3](https://github.com/naren-7117/3d/assets/128035374/1a8b7be4-8db8-4d54-9779-03da255e6532)
 
 Remove unwanted objects around the model: After putting Blender into edit mode, select everything in the scene using the keyboard shortcut, A, and change your viewpoint so that you have a clear view of the axis you would like to cut along
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7d6a513-3104-4be5-a688-c0dda600bb5b/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2875f85-92ba-40d2-b3e0-5638308032b1/Untitled.png)
 
-Switch back to View mode, add your texture back on, spin the model around, and admire (ahem: quality check) your model. You can export the cleaned-up model for back up purposes by writing the model to a Wavefront OBJ file,
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e93dd633-f091-437e-bdef-db3c9a6264e0/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3295146-71b5-43b4-a2e7-ddc12aed8f49/Untitled.png)
+![4](https://github.com/naren-7117/3d/assets/128035374/98b2a9e7-e072-452c-8d86-9420a166d2d8)
+
+Switch back to View mode, add your texture back on, spin the model around, and admire (ahem: quality check) your model. You can export the cleaned-up model for backup purposes by writing the model to a Wavefront OBJ file,
+
+![5](https://github.com/naren-7117/3d/assets/128035374/349fc219-2455-44d6-aa9d-7b18cfbfa176)
+
+![6](https://github.com/naren-7117/3d/assets/128035374/3732a95f-e636-4da5-a826-838a5c2a399c)
+
+![7](https://github.com/naren-7117/3d/assets/128035374/38859163-3fef-453b-bc59-1f6c17c77f85)
+
+
 Next, we want to simplify the model as much as possible. QGIS is going to grind to a halt if you ask it to render complex models as symbols so we are going to 'decimate' the geometry such that it maintains its form but loses as many vertices as possible
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac8e0b68-f738-4c2b-b3ff-dbadf1ac3607/Untitled.png)
+
+![8](https://github.com/naren-7117/3d/assets/128035374/ada91879-89d9-456d-b883-09e74391a3ae)
+
 
 **Location identification in Q-GIS** 
 
 Next, QGIS and make a new project with the OpenStreetMap XYZ layer added and create a scratch point layer with Z value. EPSG code is set 3857. According to Location
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/42318261-9361-4ea6-9dfc-9d28c3a6f38a/Untitled.png)
+
+![9](https://github.com/naren-7117/3d/assets/128035374/21124264-d45f-4f82-86f5-616dd11485a8)
 
 Then in your point layer properties, set the 2d symbology to no symbol
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/945b1f12-9ed6-45ec-a0fa-06961afd1bd7/Untitled.png)
+
+![10](https://github.com/naren-7117/3d/assets/128035374/d98a02bf-3ed1-424c-b9bc-26710bbf6784)
+
 
 3D view styling is opened in Q-GIS for better visualizations  And the 3D symbology to use your new object file
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/846d2bb4-da82-4b73-a4ac-cb909bc9079d/Untitled.png)
+
+![11](https://github.com/naren-7117/3d/assets/128035374/e30bd506-adfb-4d43-a117-40fb86e82d03)
+
 
 Now navigate to your model in the 3D map and enjoy the 3D awesomeness of your real world model in QGIS is created 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ca78018-e631-4e2a-a773-82a9a4559981/Untitled.png)
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b79e83a-c166-4283-9b53-e3a28f527256/Untitled.png)
+
+![12](https://github.com/naren-7117/3d/assets/128035374/9221ca8f-1b07-4e77-9223-d5d7047593d7)
+
+![13](https://github.com/naren-7117/3d/assets/128035374/58689837-49c6-4061-8e3d-61d0c94eea3d)
+
